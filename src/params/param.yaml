@@ -1,0 +1,62 @@
+train_path : https://raw.githubusercontent.com/fcitra/PMDS_Grup_G/main/train.csv
+test_path : https://raw.githubusercontent.com/fcitra/PMDS_Grup_G/main/test.csv
+target_column : NWD
+test_size : 0.2
+n_iter_search: 3
+verbosity: 2
+scoring: neg_mean_squared_error
+
+X_PATH_TRAIN: output/X_train.pickle
+Y_PATH_TRAIN: output/y_train.pickle
+X_PATH_VALID: output/X_validation.pickle
+Y_PATH_VALID: output/y_validation.pickle
+X_PATH_TEST: output/X_test.pickle
+DUMP_TRAIN: output/preprocess_data/data/preprocessed_x_train.pkl
+DUMP_VALID: output/preprocess_data/data/preprocessed_x_valid.pkl
+DUMP_PREDICT: output/predict/data/preprocessed_x_predict_v1.1.pkl
+MODEL_NAME: output/model/train/model_name_v1.1.pkl
+BEST_MODEL: output/model/train/best_estimator_v1.1.pkl
+TRAIN_LOG: output/model/train/train_log_v1.1.pkl
+
+TRAIN_COLUMN:
+- Location
+- Year
+- WeekCase
+- WeekCasePerMil
+- WeekDeath
+- WeekDeathPerMil
+- TotalVac
+- PeopleVac
+- PeopleFullVac
+- TotalBoost
+- DailyVac
+- TotalVacPerHun
+- PeopleVacPerHun
+- PeopleFullVacPerHun
+- TotalBoostPerHun
+- DailyVacPerHun
+- DailyPeopleVac
+- DailyPeopleVacPerHun
+
+NUM_COLUMN:
+- WeekCase
+- WeekCasePerMil
+- WeekDeath
+- WeekDeathPerMil
+- TotalVac
+- PeopleVac
+- PeopleFullVac
+- TotalBoost
+- DailyVac
+- TotalVacPerHun
+- PeopleVacPerHun
+- PeopleFullVacPerHun
+- TotalBoostPerHun
+- DailyVacPerHun
+- DailyPeopleVac
+- DailyPeopleVacPerHun
+
+PREDICT_COLUMN: NWD
+
+PREDICT_COLUMN_TYPE:
+  NWD: int

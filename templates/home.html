@@ -1,0 +1,166 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> Next Week's Death Prediction </h1><br>
+        
+        
+
+        <table>
+            <form method="POST", action="{{url_for('home')}}">
+                <tr>
+                    <td>
+                        Location
+                    </td>
+                    <td>
+                        : <input type="text", name="Location", placeholder="enter location">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Number of Weekly Cases
+                    </td>
+                    <td>
+                        : <input type="text", name="WeekCase", placeholder="enter # of weekly cases">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Year
+                    </td>
+                    <td>
+                        : <input type="text", name="Year", placeholder="enter year">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Weekly Cases per Million
+                    </td>
+                    <td>
+                        : <input type="text", name="WeekCasePerMil", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Weekly Deaths
+                    </td>
+                    <td>
+                        : <input type="text", name="WeekDeath", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Weekly Deaths per Million
+                    </td>
+                    <td>
+                        : <input type="text", name="WeekDeathPerMil", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Total Vaccinations
+                    </td>
+                    <td>
+                        : <input type="text", name="TotalVac", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        People Vaccinated
+                    </td>
+                    <td>
+                        : <input type="text", name="PeopleVac", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        People Fully Vaccinated
+                    </td>
+                    <td>
+                        : <input type="text", name="PeopleFullVac", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Total Booster
+                    </td>
+                    <td>
+                        : <input type="text", name="TotalBoost", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Daily Vaccinations
+                    </td>
+                    <td>
+                        : <input type="text", name="DailyVac", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Total Vaccination per Hundred
+                    </td>
+                    <td>
+                        : <input type="text", name="TotalVacPerHun", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        People Vaccinated per Hundred
+                    </td>
+                    <td>
+                        : <input type="text", name="PeopleVacPerHun", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        People Fully Vaccinated per Hundred
+                    </td>
+                    <td>
+                        : <input type="text", name="PeopleFullVacPerHun", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Total Booster per Hundred
+                    </td>
+                    <td>
+                        : <input type="text", name="TotalBoostPerHun", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Daily Vaccination per Hundred
+                    </td>
+                    <td>
+                        : <input type="text", name="DailyVacPerHun", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Daily People Vaccinated
+                    </td>
+                    <td>
+                        : <input type="text", name="DailyPeopleVac", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Daily People Vaccinated per Hundred
+                    </td>
+                    <td>
+                        : <input type="text", name="DailyPeopleVacPerHun", placeholder="enter # desired">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit", value="Predict Next Weeks Deaths!">
+                    </td>
+                </tr>
+
+            </form>
+        </table>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+## The Training and Predict Scripts
+Jalankan code berikut di terminal untuk menjalankan proses prediksi kematian akibat covid
+python src/main.py
+
+Wrangling and preprocessing
+python src/preprocess.py
+
+Training and prediction
+python src/model.py
+
+Others: 
+
+Notion documentation 
+  https://volcano-ceiling-0b2.notion.site/PM-Group-G-179ef2cd4f2c4237876ab04a8c8fcee5
+Minutes of meeting 
+  https://volcano-ceiling-0b2.notion.site/6b707383e2df4d0b9ca3a436af992641?v=0e62dec1869249f09129dc3f40229ea0
